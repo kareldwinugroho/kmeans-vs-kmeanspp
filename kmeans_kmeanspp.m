@@ -3,8 +3,8 @@ clear all;
 close all;
 
 %%% Data
-z=readmatrix("D:\K-means\kmeanspp.csv"); % Silakan sesuaikan dengan
-                                         % direktori pada komputer Anda
+z=readmatrix("D:\K-means\kmeansdata.csv"); % Silakan sesuaikan dengan
+                                           % direktori pada komputer Anda
 x=double(z(:,1));
 y=double(z(:,2));
 
